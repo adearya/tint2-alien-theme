@@ -1,0 +1,12 @@
+#!/bin/bash
+
+chosenNetwork=$(nmcli d wifi rescan | nmcli -g SSID d wifi list | rofi -dmenu -i -p "Wifi Network")
+conUp=$(nmcli -g NAME c | grep $chosenNetwork)
+
+if [[ -z $chosenNetwork ]] ; then
+    exit 1
+elif [[ -n $conUp ]] ; then
+    nmcli c up id $chosenNetwork
+else
+    rofi -dmenu -p "Password : " | nmcli general reload | nmcli radio all off | nmcli radio wifi on | nmcli -a d wifi connect $chosenNetwork
+fi

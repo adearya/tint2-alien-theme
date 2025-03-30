@@ -1,0 +1,9 @@
+#!/bin/bash
+
+statusCon=$(nmcli -g active connection | head -n 1)
+
+if [ $statusCon = "yes" ]; then
+    echo "直"
+else 
+    echo "睊"
+fi

@@ -1,0 +1,20 @@
+#!/bin/bash
+
+s="Screenshot and Save at Images"
+c="Screenshot and Copy to Clipboard"
+l="Open Screenshot launcher"
+options="$s\n$c\n$l"
+
+ex="$(echo -e $options | rofi -dmenu)"
+
+case $ex in
+    $s)
+        flameshot full -p ~/Images/screenshots/
+    ;;
+  $c)
+        flameshot full -c
+    ;;
+    $l)
+        flameshot launcher
+    ;;
+esac

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+result=$(pamixer --get-volume)
+
+echo "墳"

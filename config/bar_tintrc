@@ -1,0 +1,319 @@
+#---- By Ade Arya Bimantara ----
+# See https://github --
+# full documentation of the configuration options.
+
+# Background 1
+rounded = 3
+border_width = 2
+border_sides = TB
+border_content_tint_weight = 0
+background_content_tint_weight = 0
+background_color = #000000 100
+border_color = #00ff00 100
+
+# Panel
+panel_items = :PPPPP:PPPPP:P:PPEEE:P:
+panel_size = 100% 35
+panel_margin = 0 0
+panel_padding = 3 3 0
+panel_background_id = 1
+wm_menu = 1
+panel_dock = 0
+panel_pivot_struts = 0
+panel_position = top center horizontal
+panel_layer = top
+panel_monitor = all
+panel_shrink = 0
+autohide = 0
+autohide_show_timeout = 0
+autohide_hide_timeout = 0.5
+autohide_height = 2
+strut_policy = follow_size
+panel_window_name = tint2
+disable_transparency = 1
+mouse_effects = 1
+font_shadow = 0
+mouse_hover_icon_asb = 100 0 10
+mouse_pressed_icon_asb = 100 0 0
+scale_relative_to_dpi = 0
+scale_relative_to_screen_height = 0
+
+
+# Tooltip
+tooltip_show_timeout = 0.5
+tooltip_hide_timeout = 0.1
+tooltip_padding = 4 4
+tooltip_background_id = 1
+tooltip_font_color = #00ff00 100
+
+# Separator 1 
+separator = new
+separator_color = #00ff00 100
+separator_style = dots
+separator_size = 5
+separator_padding = 5
+
+# Firefox
+button = new
+button_text = 
+button_tooltip = Firefox
+button_font = DejaVuSans Bold 15
+button_font_color = #00ff00 100
+button_background_id = 2
+button_centered = 0
+button_padding = 8
+button_lclick_command = firefox
+button_mclick_command = firefox
+button_rclick_command = firefox
+
+# Urxvt
+button = new
+button_text = 
+button_tooltip = Urxvt
+button_font = DejaVuSans Bold 18
+button_font_color = #00ff00 100
+button_background_id = 2
+button_centered = 0
+button_padding = 8
+button_lclick_command = urxvt
+button_mclick_command = urxvt
+button_rclick_command = urxvt
+
+# Thunar
+button = new
+button_text = ﱮ
+button_tooltip = Thunar
+button_font = DejaVuSans Bold 18
+button_font_color = #00ff00 100
+button_background_id = 2
+button_centered = 0
+button_padding = 8
+button_lclick_command = thunar
+button_mclick_command = thunar
+button_rclick_command = thunar
+
+# Spotify
+button = new
+button_text = 
+button_tooltip = Spotify
+button_font = DejaVuSans Bold 18
+button_font_color = #00ff00 100
+button_background_id = 2
+button_centered = 0
+button_padding = 8
+button_lclick_command = spotify
+button_mclick_command = spotify
+button_rclick_command = spotify
+
+# GIMP
+button = new
+button_text = 
+button_tooltip = GIMP
+button_font = DejaVuSans Bold 23
+button_font_color = #00ff00 100
+button_background_id = 2
+button_centered = 0
+button_padding = 8
+button_lclick_command = gimp
+button_mclick_command = gimp
+button_rclick_command = gimp
+
+# Separator 2
+separator = new
+separator_color = #00ff00 100
+separator_style = line
+separator_size = 2
+separator_padding = 5
+
+# Youtube
+button = new
+button_text = 
+button_tooltip = Youtube
+button_font = DejaVuSans Bold 18
+button_font_color = #00ff00 100
+button_background_id = 2
+button_centered = 0
+button_padding = 10
+button_lclick_command = firefox --new-window https://youtube.com
+button_mclick_command = firefox --new-window https://youtube.com
+button_rclick_command = firefox --new-window https://youtube.com 
+
+# Whatsapp
+button = new
+button_text = 
+button_tooltip = Whatsapp
+button_font = DejaVuSans Bold 18
+button_font_color = #00ff00 100
+button_background_id = 2
+button_centered = 0
+button_padding = 8
+button_lclick_command = firefox --new-window https://web.whatsapp.com
+button_mclick_command = firefox --new-window https://web.whatsapp.com
+button_rclick_command = firefox --new-window https://web.whatsapp.com 
+
+# Telegram
+button = new
+button_text = 
+button_tooltip = Telegram
+button_font = DejaVuSans Bold 18
+button_font_color = #00ff00 100
+button_background_id = 2
+button_centered = 0
+button_padding = 8
+button_lclick_command = telegram-desktop
+button_mclick_command = telegram-desktop
+button_rclick_command = telegram-desktop
+
+# Instagram
+button = new
+button_text = 
+button_tooltip = Instagram
+button_font = DejaVuSans Bold 18
+button_font_color = #00ff00 100
+button_background_id = 2
+button_centered = 0
+button_padding = 8
+button_lclick_command = firefox --new-window https://www.instagram.com
+button_mclick_command = firefox --new-window https://www.instagram.com
+button_rclick_command = firefox --new-window https://www.instagram.com
+
+# Github
+button = new
+button_text = 
+button_tooltip = Github
+button_font = DejaVuSans Bold 18
+button_font_color = #00ff00 100
+button_background_id = 2
+button_centered = 0
+button_padding = 8
+button_lclick_command = firefox --new-window https://github.com/
+button_mclick_command = firefox --new-window https://github.com/
+button_rclick_command = firefox --new-window https://github.com/
+
+# Separator 3 
+separator = new
+separator_color = #00ff00 100
+separator_style = line
+separator_size = 2
+separator_padding = 5
+
+# Quotes
+button = new
+button_text = Make it work, make it right, make it fast.
+button_tooltip = Make it work, make it right, make it fast.
+button_font = Hack Nerd Font Bold 10
+button_font_color = #00ff00 100
+button_background_id = 2
+button_centered = 0
+button_padding = 220
+
+# Separator 4 
+separator = new
+separator_color = #00ff00 100
+separator_style = line
+separator_size = 2
+separator_padding = 5
+
+# Screenshot
+button = new
+button_text = 
+button_tooltip = Screenshot
+button_font = DejaVuSans Bold 18
+button_font_color = #00ff00 100
+button_background_id = 2
+button_centered = 0
+button_padding = 10
+button_lclick_command = bash ~/SourceCode/tint2-alien-theme/config/screenshot
+button_mclick_command = bash ~/SourceCode/tint2-alien-theme/config/screenshot
+button_rclick_command = bash ~/SourceCode/tint2-alien-theme/config/screenshot
+
+# Simple Screen Recorder
+button = new
+button_text = 󰑋
+button_tooltip = Simple Screen Recorder
+button_font = Hack Nerd Font 25
+button_font_color = #00ff00 100
+button_background_id = 2
+button_centered = 0
+button_padding = 12
+button_lclick_command = simplescreenrecorder
+button_mclick_command = simplescreenrecorder
+button_rclick_command = simplescreenrecorder
+
+# Wireless Connection
+execp = new
+execp_command = bash ~/SourceCode/tint2-alien-theme/scripts/icon-wifi
+execp_interval = 1
+execp_continuous = 0
+execp_has_icon = 0
+execp_tooltip = Wireless Connections
+execp_font = DejaVuSans Bold 18
+execp_font_color = #00ff00 100
+execp_background_id = 2
+execp_centered = 0
+execp_padding = 7
+execp_lclick_command = bash ~/SourceCode/tint2-alien-theme/config/rofi-wifi
+execp_mclick_command = bash ~/SourceCode/tint2-alien-theme/config/rofi-wifi
+execp_rclick_command = bash ~/SourceCode/tint2-alien-theme/config/rofi-wifi
+
+
+# Brightness
+execp = new
+execp_command = bash ~/SourceCode/tint2-alien-theme/scripts/brightness
+execp_interval = 1
+execp_continuous = 0
+execp_has_icon = 0
+execp_cache_icon = 0
+execp_icon_w = 0
+execp_icon_h = 0
+execp_tooltip = Brightness
+execp_font = DejaVuSans Bold 18
+execp_font_color = #00ff00 100
+execp_background_id = 2
+execp_centered = 0
+execp_padding = 8
+execp_lclick_command = brightnessctl
+
+# Volume
+execp = new
+execp_command = bash ~/SourceCode/tint2-alien-theme/scripts/volume
+execp_interval = 1
+execp_continuous = 0
+execp_has_icon = 0
+execp_cache_icon = 0
+execp_icon_w = 0
+execp_icon_h = 0
+execp_tooltip = Volume
+execp_font = DejaVuSans Bold 18
+execp_font_color = #00ff00 100
+execp_background_id = 2
+execp_centered = 0
+execp_padding = 8
+
+# Separator 5 
+separator = new
+separator_color = #00ff00 100
+separator_style = line
+separator_size = 2
+separator_padding = 5
+
+# Power
+button = new
+button_text = ⏻
+button_tooltip = Power
+button_font = DejaVuSans Bold 18
+button_font_color = #00ff00 100
+button_background_id = 2
+button_centered = 1
+button_padding = 10
+button_lclick_command = bash ~/SourceCode/tint2-alien-theme/config/rofi-power
+button_mclick_command = bash ~/SourceCode/tint2-alien-theme/config/rofi-power
+button_rclick_command = bash ~/SourceCode/tint2-alien-theme/config/rofi-power
+
+# Separator 6 
+separator = new
+separator_color = #00ff00 100
+separator_style = dots
+separator_size = 5
+separator_padding = 5
+

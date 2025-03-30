@@ -37,7 +37,6 @@
 
 
 ## About The Project
-<hr style="margin: -15px 0px;"><br />
 
 ![App Screenshot](https://raw.githubusercontent.com/adearya/tint2-alien-theme/HEAD/raw/images/screenshot_desktop.png)
 
@@ -52,7 +51,6 @@
 
 
 ## Getting Started
-<hr style="margin: -15px 0px;"><br />
 
 <p>
     Once applied, users will experience a neon-green alien-inspired panel that enhances the desktop's futuristic vibe. Customization options are available through the Tint2 configuration file for adjusting colors, transparency, or layout to match personal preferences.
@@ -93,7 +91,6 @@ cd tint2-alien-theme/
 
 
 ## Usage
-<hr style="margin: -15px 0px;"><br />
 
 <p>Once the installation is complete, refer to this section for basic usage instructions. Make sure all prerequisites are met before running the application.</p>
 
@@ -118,7 +115,6 @@ tint2rc -c task_tint2rc &
 
 
 ## Contact
-<hr style="margin: -15px 0px;"><br />
 
 <p>If you have any questions, encounter any issues, or would like to contribute to this project, feel free to reach out through the contact information below</p>
 
